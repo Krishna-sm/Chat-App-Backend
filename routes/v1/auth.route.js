@@ -51,7 +51,7 @@ module.exports = router;
  * @swagger
  * tags:
  *   name: Auth
- *   description: Authentication Route for Chat App
+ *   description: Authentication Route for Abhiboo App
  */
 
 

@@ -15,9 +15,11 @@ router.use('/', swaggerUi.serve);
 router.get(
   '/',
   swaggerUi.setup(specs, {
+  
     explorer: true,
     customCss: theme.getBuffer('feeling-blue'),
-    customSiteTitle:"Chat App"
+    customSiteTitle:"Logistic App 🔥",
+    customfavIcon:"https://img3.exportersindia.com/product_images/bc-full/2019/8/6491999/storage-paper-box-1564731157-5028065.jpeg"
   })
 );
 

@@ -17,7 +17,7 @@ app.use(morgan('dev'))
 
 
 // routes
-app.use('/chat-app-service/v1',MainRoute)
+app.use('/logistic-app-service/v1',MainRoute)
 
 // send back a 404 error for any unknown api request
 app.use((req, res, next) => {
